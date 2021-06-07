@@ -1,9 +1,10 @@
 class Ball{
-    constructor(x,y,d,c){
+    constructor(x,y,d,c,speed){
         this.x = x
         this.y = y
         this.d = d
         this.c = c
+        this.speed = speed
     }
     draw(){
         push()
