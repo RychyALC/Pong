@@ -14,6 +14,6 @@ class Ball{
     }
     move(){
         this.y += this.speed
-        this.x += this,speed
+        this.x += this.speed
     }
 }
