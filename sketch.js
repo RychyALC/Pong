@@ -10,7 +10,7 @@ function setup() {
 	let py = (floor(windowHeight/2)-floor(ph/2))
 	p1 = new paddle(0,py,pw,ph,'#d2fafb')
 	p2 = new paddle((windowWidth-pw),py,pw,ph,'#512b58')
-	ball = new Ball(floor(windowWidth/2),floor(windowHeight/2),50,'green')
+	ball = new Ball(floor(windowWidth/2),floor(windowHeight/2),50,'green',5)
 }
 
 function draw() {
